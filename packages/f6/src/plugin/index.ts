@@ -1,5 +1,5 @@
-// import Plugin from '@antv/g6-plugins';
+import SnapLine from './snapLine';
 
-export default Plugin;
-
-// export default {};
+export default {
+  SnapLine,
+};

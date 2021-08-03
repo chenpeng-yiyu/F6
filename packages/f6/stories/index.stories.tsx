@@ -6,6 +6,7 @@ import FruchtermanDemo from './fruchterman';
 import CollapseSlibingDemo from './interactive/collapseSlibing';
 import DagreConfigurationTranslateDemo from './generalGraph/dagreConfigurationTranslate';
 import MindMapDemo from './sceneCase/mindMap';
+import SnapLineDemo from './snapLine';
 
 export default {
   title: 'Example',
@@ -17,3 +18,4 @@ export const DagreConfigurationTranslate = ((args) => (
   <DagreConfigurationTranslateDemo {...args} />
 )).bind({});
 export const fruchterman = (args) => <FruchtermanDemo {...args} />;
+export const SnapLine = (args) => <SnapLineDemo {...args} />;
